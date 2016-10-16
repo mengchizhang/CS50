@@ -4,32 +4,30 @@
 
 int main(void){
     
-    int a = 0;
-    float b;
+    int c = 0;
+    float f;
     
     do{
         printf("How much change is owed?\n");
-        b = GetFloat();
-    } while (b < 0.00);
+        f = GetFloat();
+    } while (f < 0.00);
     
-    float c = roundf(b*100) / 100;
-    //printf("%f\n", c);
-    int f = 100 * c;
+    int i = roundf(f*100);
     
-    while (f > 0){
+    while (i > 0){
         //printf("%i\n", f);
-        if (f%25 != f && f%25 >= 0) {
-            f = f - 25;
-        } else if (f%10 != f && f%10 >= 0) {
-            f = f - 10;
-        } else if (f%5 != f && f%5 >= 0) {
-            f = f - 5;
+        if (i%25 != i && i%25 >= 0) {
+            i -= 25;
+        } else if (i%10 != i && i%10 >= 0) {
+            i -= 10;
+        } else if (i%5 != i && i%5 >= 0) {
+            i -= 5;
         } else {
-            f = f - 1;
+            i -= 1;
         }
-        a++;
+        c++;
     }
     
-    printf("%i\n", a);
+    printf("%i\n", c);
     
 }
