@@ -1,7 +1,7 @@
 # CS50
 edX | CS50: Introduction to Computer Science 2015/16 Project Repo
 
-—————————————————————————————————————————————————————————————————
+———————————————————————————————
 
 pset1
 
@@ -11,8 +11,7 @@ mario.c: Toward the end of World 1-1 in Nintendo’s Super Mario Brothers, Mario
 
 greedy.c: A program that first asks the user how much change is owed and then spits out the minimum number of coins(cents) with which said change can be made.
 
-—————————————————————————————————————————————————————————————————
-
+————————————————————————————————
 pset2 
 
 
